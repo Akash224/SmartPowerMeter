@@ -1,0 +1,59 @@
+body {
+    
+    background-image: url("../images/company.jpeg");
+    background-repeat: no-repeat;
+     background-position: 0% -30%;
+    	background-size: 60% ;
+    
+    	   
+} 
+
+#user1{
+	position: fixed;
+	top: 30%;
+	left: 15%
+}
+
+#user2{
+	position: fixed;
+	top: 18%;
+	left: 25%
+}
+
+#user3{
+	position: fixed;
+	top: 28%;
+	left: 55%
+}
+
+#user4{
+	position: fixed;
+	top: 60%;
+	left: 37%
+}
+
+table{font-family: Calibri; color:; font-size: 15pt; font-style: normal;
+text-align:; border-collapse: collapse; border: 2px solid #47A375;
+
+}
+table.inner{border: 0px}
+
+
+
+#Demand{
+	position: fixed;
+	top: 5%;
+	left: 75%
+}
+
+#alert{
+	position: fixed;
+	top: 40%;
+	left: 75%
+}
+
+#control{
+	position: fixed;
+	top: 65%;
+	left: 65%
+}

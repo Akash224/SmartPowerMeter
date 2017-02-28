@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+h3{font-family: Calibri; font-size: 22pt; font-style: normal; font-weight: bold; color:SlateBlue;
+text-align: center; text-decoration: underline }
+table{font-family: Calibri; color:black; font-size: 11pt; font-style: normal;
+text-align:; border-collapse: collapse; border: 2px solid navy}
+table.inner{border: 0px}
+</style>
+</head>
+ 
+<body>
+<div align="center" style="min-height: 300px; padding-top: 20px;" >
+<h1 style="color: black">Device Details</h1><p>
+
+<form name = "Device" action="NewSensor.html" onsubmit = "validateForm()" method="get" >
+ 
+<table align="center" cellpadding = "10">
+ 
+<!-----DeviceId-------------------------------------------------------->
+<tr>
+<td>Device Id</td>
+<td><input type="text" value="" name="Device_id" maxlength="30" />
+
+</td>
+</tr>
+ 
+
+<!-----Authentication ---------------------------------------------------------->
+<tr>
+<td>Authentication</td>
+<td><input type="text" value="" name="Authentication" maxlength="30" />
+
+</td>
+</tr> 
+
+<!-----Zone ---------------------------------------------------------->
+<tr>
+<td>Zone</td>
+<td><input type="number" value="1" name="Zone" max = "3" />
+
+</td>
+</tr> 
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+
+
+
+</div>
+
+
+<script src="js/Sensor.js" type="text/javascript"></script>
+<script>
+
+
+
+/*function validateForm() {
+	deviceId = document.forms["Device"]["Device_id"].value;
+	window.alert(deviceId)
+	deviceToken = document.forms["Device"]["Authentication"].value;
+	window.alert(deviceToken)
+    zone = document.forms["Device"]["Zone"].value;
+	window.alert(zone)
+}*/
+</script>
+
+</body>
+</html>
+
+

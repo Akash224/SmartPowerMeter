@@ -1,0 +1,45 @@
+body {
+    
+    background-image: url("../images/Portal.jpg");
+    background-repeat: no-repeat;
+    
+    	   
+} 
+
+table{font-family: Calibri; color:#ffffff; font-size: 15pt; font-style: normal;
+text-align:; border-collapse: collapse; border: 2px solid white;
+
+}
+table.inner{border: 0px}
+
+#control{
+	position: fixed;
+	left: 35%;
+	top: 10%
+	
+}
+
+#announcement{
+	position: fixed;
+	
+	top: 10%
+	
+}
+
+#Usage{
+	position: fixed;
+	top: 50%
+	
+}
+
+#Subsidies{
+	position: fixed;
+	top: 10%;
+	left: 80%
+}
+
+#usageTrend{
+	position: fixed;
+	top: 45%;
+	left: 27%
+}
